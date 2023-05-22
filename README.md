@@ -1,6 +1,6 @@
 # Claim_Fraud_Detection
 
-~~<h3>Claim Frauds</h3>~~
+<h3>Claim Frauds</h3>
 
 Claims fraud is a general problem which is being faced by many people in various services and sectors.
 There are many types of Claim Fraud, some of the common claims fraud is
@@ -30,27 +30,26 @@ We came up with a solution proposal using Al/ML and other technologies. The solu
 The National Heath Care Anti-Fraud Association estimates claims fraud to be around $68 billion in United State alone, there is still a lot of scope for the development of new solutions that could help bring down the claims fraud happening every year.
 Our model is a plug-and-play solution with a configurable input data source, easy adaptability, and an accurate fraud-detecting feature that can connect to any data source and fit into a suitable part of claims processing.
 
-~~<h3>About Dataset</h3>~~
+<h3>About Dataset</h3>
 
 The dataset consists of:
 
-~~Inpatient Data~~
+~Inpatient Data~
 
 This data provides insights about the claims filed for those patients who are admitted in the hospitals. It also provides additional details like their admission and discharge dates and admit d diagnosis code.
 
-~~>Outpatient Data~~
+~Outpatient Data~
 
 This data provides details about the claims filed for those patients who visit hospitals and not admitted in it.
 
-~~Beneficiary Details Data~~
+~Beneficiary Details Data~
 
 This data contains beneficiary KYC details like health conditions, region they belong to etc
 
 <h3>Dataset Link</h3>
-  [MyDrive/Dataset]([URL](https://drive.google.com/drive/folders/1EbAhMTrPfAvBETKtE8hCFE5qn-7RR2gD?usp=sharing))
 https://drive.google.com/drive/folders/1EbAhMTrPfAvBETKtE8hCFE5qn-7RR2gD?usp=sharing 
 
 <h3>Output Video Link</h3>
-
+https://drive.google.com/file/d/1_oXnuKehrqeU_dBYPN2u9zwqECRD7kax/view?usp=drivesdk 
 
 
