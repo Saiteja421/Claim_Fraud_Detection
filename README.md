@@ -27,6 +27,7 @@ There are many types of Claim Fraud, some of the common claims fraud is
     
  <h3>Solution</h3>
 We came up with a solution proposal using Al/ML and other technologies. The solution is able to detect claims fraud by using patient, provider data, and claims data with the payer.
+This process of verifying and taking the decision to accept or reject the claim is known as claims adjudication. The submitted claims go through a detailed information check. Details such as diagnosis, patient id, patient DOB, and procedure code are verified by the payer to ensure that the information is legitimate. If the patient has an insurance plan with the respective payer, his coverage details are checked in the payer's internal record to decide on the covered benefits
 The National Heath Care Anti-Fraud Association estimates claims fraud to be around $68 billion in United State alone, there is still a lot of scope for the development of new solutions that could help bring down the claims fraud happening every year.
 Our model is a plug-and-play solution with a configurable input data source, easy adaptability, and an accurate fraud-detecting feature that can connect to any data source and fit into a suitable part of claims processing.
 
@@ -34,15 +35,15 @@ Our model is a plug-and-play solution with a configurable input data source, eas
 
 The dataset consists of:
 
-~Inpatient Data~
+<h4>Inpatient Data</h4>
 
 This data provides insights about the claims filed for those patients who are admitted in the hospitals. It also provides additional details like their admission and discharge dates and admit d diagnosis code.
 
-~Outpatient Data~
+<h4>Outpatient Data</h4>
 
 This data provides details about the claims filed for those patients who visit hospitals and not admitted in it.
 
-~Beneficiary Details Data~
+<h4>Beneficiary Details Data</h4>
 
 This data contains beneficiary KYC details like health conditions, region they belong to etc
 
