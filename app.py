@@ -259,40 +259,29 @@ def final_pipeline(train_beneficiary,train_inpatient,train_outpatient):
     print('prediction done')
     return  pred_df,providr_id
 
-
 @app.route('/')
 def index():
     return render_template('index.html')
 
-# @app.route('/index.html')
-# def login():
-#     return render_template('index.html')
-
 @app.route('/home.html', methods=['POST'])
 def login():
-    # Process the form data and perform any necessary validation
-    # If the form is valid, redirect to the home page
     return render_template('home.html')
 
-@app.route('/home.html')
-def home():
-    return render_template('home.html')
+@app.route('/index.html')
+def indexx():
+    return render_template('index.html')
 
 @app.route('/register.html')
 def register():
     return render_template('register.html')
 
-# @app.route('/upload.html')
-# def upload():
-#     return render_template('upload.html')
+@app.route('/register.html', methods=['POST'])
+def loginn():
+    return render_template('home.html')
 
-# @app.route('/upload.html#home')
-# def homee():
-#     return render_template('home.html')
-
-# @app.route('/upload.html#about')
-# def about():
-#     return render_template('about.html')
+@app.route('/home.html')
+def home():
+    return render_template('home.html')
 
 @app.route('/upload.html', methods=['POST', 'GET'])
 def upload():
