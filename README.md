@@ -51,6 +51,5 @@ This data contains beneficiary KYC details like health conditions, region they b
 https://drive.google.com/drive/folders/1EbAhMTrPfAvBETKtE8hCFE5qn-7RR2gD?usp=sharing 
 
 <h3>Output Video Link</h3>
-https://drive.google.com/file/d/1_oXnuKehrqeU_dBYPN2u9zwqECRD7kax/view?usp=drivesdk 
-
+https://youtu.be/9xKG7o7zcjY
 
